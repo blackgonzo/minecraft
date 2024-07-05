@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(22, 22, 22);
+    width: 100vw; height: 100vh;
+}
+header{
+    border: 2px solid #fafafa10;
+    background-color: #fafafa09;
+    backdrop-filter: blur(0.4rem);
+}
+nav{
+    display: flex;
+    flex-direction: rows;
+}
+.cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.minecraftcard {
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;minecraft
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.dungeoncard{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.educationcard {
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.leyendscard{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+p{
+    color: rgb(179, 179, 179);
+}
+
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr{
+    
+}
+.minecraftlogo{
+    height: 200px;
+    width: 200px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
